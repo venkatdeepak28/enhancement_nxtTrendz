@@ -31,3 +31,84 @@
   width: 18vw;
   border-radius: 6px;
 }
+
+.pop-container {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.close-btn {
+  border: 0;
+  background-color: transparent;
+  margin-left: 95%;
+}
+
+.payment-heading {
+  font-family: 'Outfit', sans-serif;
+  margin-left: 5%;
+  margin-bottom: 0;
+}
+
+.payment-para {
+  font-family: 'Outfit', sans-serif;
+  margin-left: 5%;
+  color: grey;
+  margin-bottom: 0;
+}
+
+.payment-list-container {
+  list-style: none;
+  width: 43vw;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 15px;
+  margin-bottom: 0;
+}
+
+.payment-list-el {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2%;
+}
+
+.payment-input-el {
+  margin-right: 5%;
+}
+
+.bill-container {
+  margin-right: 52%;
+}
+
+.checkout-button {
+  background-color: #405cf5;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow:
+    rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.1) 0 2px 5px 0,
+    rgba(0, 0, 0, 0.07) 0 1px 1px 0;
+  color: #fff;
+  font-family: -apple-system, system-ui, 'Segoe UI', Roboto, 'Helvetica Neue',
+    Ubuntu, sans-serif;
+  font-size: 100%;
+  height: 44px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  padding: 0 25px;
+  text-align: center;
+  text-transform: none;
+}
+
+.unselected {
+  background-color: #dadae6;
+  border: 0;
+}
+
+.success-img {
+  height: 90px;
+}
+
+.success{
+  justify-content: center;
+}
